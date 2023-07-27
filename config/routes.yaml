@@ -1,0 +1,30 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+cars:
+    path: /api/cars
+    controller: App\Controller\CarsController::list
+    methods: [GET]
+
+car:
+    path: /api/cars/{id}
+    controller: App\Controller\CarsController::get
+    methods: [GET]
+
+add_car:
+    path: /api/cars
+    controller: App\Controller\CarsController::add
+    methods: [POST]
+
+update_car:
+    path: /api/cars/{id}
+    controller: App\Controller\CarsController::update
+    methods: [PATCH]
+
+delete_car:
+    path: /api/cars/{id}
+    controller: App\Controller\CarsController::delete
+    methods: [DELETE]

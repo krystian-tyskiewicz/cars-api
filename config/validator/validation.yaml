@@ -1,0 +1,8 @@
+App\Entity\Car:
+    properties:
+        vin:
+            - NotBlank: ~
+        make:
+            - NotBlank: ~
+        model:
+            - NotBlank: ~
