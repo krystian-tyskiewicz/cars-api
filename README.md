@@ -1,5 +1,3 @@
-# PHP, Symfony, Doctrine, MySQL, Docker 🚀
-
 ## Getting Started
 
 Build and run docker containers:
